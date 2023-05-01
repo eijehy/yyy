@@ -27,6 +27,7 @@ public class TestController {
     public List<User> hi(){
         List<User> list = userService.list();
         System.out.println("aaagit ");
+        System.out.println("yyyyyyyy");
         return list;
     }
 }
