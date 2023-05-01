@@ -26,7 +26,7 @@ public class TestController {
     @RequestMapping("/hi")
     public List<User> hi(){
         List<User> list = userService.list();
-
+        System.out.println("aaagit ");
         return list;
     }
 }
